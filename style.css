@@ -30,7 +30,7 @@ html {
     margin-top: 50px;
 }
 /*div with media stuff like gdrive etc*/
-.media {
+#media {
     margin-top: 200px;
     text-align: center;
     height: 850px;
@@ -58,6 +58,12 @@ html {
 .gdrive {
     margin-top: 200px;
     margin-bottom: 200px;
+}
+.learnmore {
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+
 }
 .mikedean {
     left: 20%;
@@ -167,7 +173,7 @@ a:hover {
     .container11{
     background: rgba(255,255,255,0.4);
     }
-    .media {
+    #media {
         height: 770px;
     }
     .container {
@@ -189,7 +195,7 @@ a:hover {
     h1 {
         font-size: 1.5rem;
     }
-    .media {
+    #media {
         margin-top: 350px;
     }
     img {
