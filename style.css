@@ -9,11 +9,19 @@ body {
     padding: 0;
 
 }
-
+html {
+    scroll-behavior: smooth;
+}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+.h1title {
+    border-bottom: 1px double black;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-bottom:10px
 }
 /*donda photo*/
 .main {
@@ -29,7 +37,7 @@ body {
     margin-bottom: 30px;
 }
 .container11 {
-    height: 70%;
+    height: 72%;
     overflow: auto;
     border-radius: 10px;
     white-space: normal;}
@@ -151,9 +159,13 @@ a:hover {
     button {
     padding: 250px 50px;
     }
+    .h1title {
+        border-bottom: 0px double black;
+        margin-right: 0;
+        margin-left: 0;
+    }
     .container11{
     background: rgba(255,255,255,0.4);
-    backdrop-filter: blur(25px);
     }
     .media {
         height: 770px;
@@ -172,6 +184,7 @@ a:hover {
     }
     .tweets {
         display: block;
+        margin-top: 110px;
     }
     h1 {
         font-size: 1.5rem;
