@@ -31,7 +31,7 @@ html {
 }
 /*div with media stuff like gdrive etc*/
 #media {
-    margin-top: 200px;
+    margin-top: 20%;
     text-align: center;
     height: 850px;
     margin-bottom: 30px;
