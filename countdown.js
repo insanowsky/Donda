@@ -4,7 +4,7 @@
         hour = minute * 60,
         day = hour * 24;
 
-    let donda = "2021-08-06T00:00:00Z",
+    let donda = "2021-08-06T02:00:00Z",
         countDown = new Date(donda).getTime(),
         x = setInterval(function() {
 
