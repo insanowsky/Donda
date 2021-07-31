@@ -1,0 +1,245 @@
+@font-face {
+    font-family: sfpro;
+    src: url(./SF-Pro-Text-Bold.otf) format("opentype");
+}
+body {
+    background-color: rgba(255,255,255);
+    font-family: sfpro;
+    margin: 0;
+    padding: 0;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.h1title {
+    border-bottom: 1px double black;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-bottom:10px
+}
+.nitro {
+    border-bottom: 1px double black;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding-bottom:10px;
+    margin-top: 200px;
+    text-decoration: underline;
+}
+/*donda photo*/
+.main {
+    display: grid;
+    place-content: center;
+    margin-top: 150px;
+}
+/*div with media stuff like gdrive etc*/
+#media {
+    margin-top: 20%;
+    text-align: center;
+    height: 850px;
+    margin-bottom: 30px;
+}
+.container11 {
+    height: 72%;
+    overflow: auto;
+    border-radius: 10px;
+    white-space: normal;}
+.devlog {
+    margin: 0;
+    text-align: center;
+}
+/*embed tweets*/
+.tweets {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 50px;
+    grid-gap: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.gdrive {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.learnmore {
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+
+}
+.mikedean {
+    left: 20%;
+}
+.kanyewest {
+    right: 20%
+}
+/*donda style title text alignment*/
+.headline1 {
+    margin-right: 170px;
+}
+
+.headline3 {
+    margin-left: 150px;
+}
+/*container with countdown*/
+.container {
+    z-index: 2;
+    color: #333;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    top: 70%;
+}
+
+h1 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    text-transform: uppercase;
+}
+
+li {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+li span {
+    display: block;
+    font-size: 4.5rem;
+}
+
+.emoji {
+    display: none;
+    padding: 1rem;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+.BETA {
+    display: grid;
+    place-items: center;
+    color: white;
+    background: black;
+    z-index: 999;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(105, 105, 105,10);
+    border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+.emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #333;
+    font-size: 12px;
+    font-weight: 400;
+    z-index: 2;
+    margin-bottom: 10px;
+}
+.footer a {
+    text-decoration: underline;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover {
+    color: inherit;
+}
+@media all and (max-width: 768px) {
+    .main {
+        margin-top: 100px;
+    }
+    button {
+        padding: 250px 50px;
+    }
+    .h1title {
+        border-bottom: 0px double black;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .container11{
+        background: rgba(0,0,0,0.4);
+    }
+    #media {
+        height: 770px;
+    }
+    .container {
+        margin: 40px auto 0 auto;
+    }
+    .countdowntimer {
+        margin-top: 10px;
+    }
+    .gdrive {
+        color: white;
+    }
+    .headline1 {
+        margin-right: 130px;
+    }
+    .headline3 {
+        margin-left: 115px;
+    }
+    .tweets {
+        display: block;
+        margin-top: 110px;
+    }
+    h1 {
+        font-size: 1.5rem;
+    }
+    #media {
+        margin-top: 350px;
+    }
+    img {
+        max-width: 190px;
+        max-height: 192px;
+    }
+    li {
+        font-size: 1.125rem;
+        padding: .75rem;
+    }
+
+    li span {
+        font-size: 3.375rem;
+    }
+}
+
+@media all and (max-height: 667px) {
+    .footer {
+        font-size: 8px;
+    }
+    .main {
+        margin-top: 20px;
+    }
+    .container {
+        margin: 30px auto 0 auto;
+    }
+}
