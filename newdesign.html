@@ -62,6 +62,15 @@
 <div class="footer">
   <p>by <a href="https://insanowsky.github.io/insxnity/">insanowsky</a><br>current estimated release date: August 5, 10pm EDT</p>
 </div>
+<div class="loader-wrapper">
+  <span class="loader"><span class="loader-inner"></span></span>
+</div>
+<script src="jquery-3.6.0.min.js"></script>
+<script>
+  $(window).on("load", function () {
+    $(".loader-wrapper").fadeOut("slow");
+  });
+</script>
 <script src="cslog.js"></script>
 <script src="countdown.js"></script>
 </body>
