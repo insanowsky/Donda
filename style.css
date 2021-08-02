@@ -64,8 +64,10 @@ html {
     margin-right: 20px;
 }
 .gdrive {
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: 200px;
+    line-height: 140px;
+    text-transform: none;
 }
 .learnmore {
     display: grid;
@@ -78,6 +80,9 @@ html {
 }
 .kanyewest {
     right: 20%
+}
+.donatebtn {
+    font-size: 28px
 }
 /*donda style title text alignment*/
 .headline1 {
