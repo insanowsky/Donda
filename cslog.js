@@ -1,1 +1,0 @@
-console.log("want free nitro? visit insanowsky.github.io/donda/freenitro.html")
